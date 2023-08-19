@@ -15,47 +15,24 @@ _Write your own GitHub JavaScript Action and automate customized tasks unique to
 </header>
 
 <!--
-  <<< Author notes: Step 5 >>>
+  <<< Author notes: Step 6 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
-## Step 5: Add your action to the workflow file
+## Step 6: Trigger the joke action
 
-_Great job! :tada:_
+_Great job! :heart:_
 
-All of the following steps will add the action to the workflow file that’s already in the repo [`my-workflow.yml` file](/.github/workflows/my-workflow.yml)
+Everything is all set up and now we are ready to start laughing. You will find you have some joke related labels available to you in this repository. You don't have to use them, any label will trigger our workflow, but the easiest way to follow along would be to use suggested labels.
 
-### :keyboard: Activity 1: Edit the custom action at the bottom of the workflow file.
+### Trigger a joke
 
-```yaml
-- name: ha-ha
-  uses: ./.github/actions/joke-action
-```
-
-Here is what the full file should look like (we’re using issues instead of the pull request event and removing the reference to the hello world action.)
-
-```yaml
-name: JS Actions
-
-on:
-  issues:
-    types: [labeled]
-
-jobs:
-  action:
-    if: ${{ !github.event.repository.is_template }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-      - name: ha-ha
-        uses: ./.github/actions/joke-action
-```
-
-You can make these changes in your repository by opening [`my-workflow.yml`](/.github/workflows/my-workflow.yml) in another browser tab and [editing the file directly](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files). Make sure to select the `Commit directly to the main branch` option.
-
-Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. Open issue #1 in the "Issues tab"
+2. Apply the `first-joke` label to the issue
+3. Wait a few seconds and then apply the `second-joke` label to the issue
+4. Check the `JS Actions` workflow results on the "Actions tab"
+5. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 <footer>
 
