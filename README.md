@@ -15,24 +15,39 @@ _Write your own GitHub JavaScript Action and automate customized tasks unique to
 </header>
 
 <!--
-  <<< Author notes: Step 6 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Author notes: Finish >>>
+  Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Step 6: Trigger the joke action
+## Finish
 
-_Great job! :heart:_
+<img src=https://octodex.github.com/images/poptocat_v2.png alt=celebrate width=300 align=right>
 
-Everything is all set up and now we are ready to start laughing. You will find you have some joke related labels available to you in this repository. You don't have to use them, any label will trigger our workflow, but the easiest way to follow along would be to use suggested labels.
+### Congratulations, you've completed this course!
 
-### Trigger a joke
+In this course, you've learned a lot about developing custom actions using JavaScript and Actions Toolkit.
 
-1. Open issue #1 in the "Issues tab"
-2. Apply the `first-joke` label to the issue
-3. Wait a few seconds and then apply the `second-joke` label to the issue
-4. Check the `JS Actions` workflow results on the "Actions tab"
-5. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+## Publishing your actions
+
+Publishing your actions is a great way to help others in your team and across the GitHub community. Although actions do not need to be published to be consumed, by adding them to the marketplace you make them easier to find.
+
+Some notable actions you will find on the marketplace are:
+
+- [Actions for Discord](https://github.com/marketplace/actions/actions-for-discord)
+- [GitHub Action for Slack](https://github.com/marketplace/actions/github-action-for-slack)
+- [Jekyll action](https://github.com/marketplace/actions/jekyll-action)
+- [Run Jest](https://github.com/marketplace/actions/run-jest)
+
+And that just scratches the surface of the 1600+ and counting actions you will find on the marketplace
+
+Follow [this guide](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/publishing-actions-in-github-marketplace#publishing-an-action) to learn how to publish your actions to the GitHub Marketplace
+
+### What's next?
+
+- [Take another GitHub Skills course](https://github.com/githubskills).
+- We'd love to hear what you thought of this course in our [discussion board](https://github.com/orgs/skills/discussions/categories/write-javascript-actions).
+- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
+- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
 <footer>
 
